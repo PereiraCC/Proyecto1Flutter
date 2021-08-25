@@ -18,12 +18,8 @@ class _AppBarCustomState extends State<AppBarCustom> {
     return AppBar(
       elevation: 0.8,
       toolbarHeight: 65,
-      leading: IconButton(
-          icon: Icon(Icons.menu), 
-          color: Colors.black, 
-          onPressed: () {}
-      ),
       backgroundColor: Colors.white,
+      iconTheme: IconThemeData(color: Colors.black),
       actions: [
         Row(
           children: [
@@ -38,7 +34,6 @@ class _AppBarCustomState extends State<AppBarCustom> {
             SizedBox(width: 170),
             IconButton(
                 icon: Icon(Icons.search),
-                color: Colors.black,
                 onPressed: () {}
             ),
           ],

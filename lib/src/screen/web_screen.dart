@@ -8,6 +8,7 @@ class WebScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBarCustom(),
+      drawer: DrawerCustom(),
       body: Center(
         child: Text('Web Screen'),
      ),

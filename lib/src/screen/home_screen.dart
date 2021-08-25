@@ -8,6 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBarCustom(),
+      drawer: DrawerCustom(),
       body: SafeArea(
         child: SingleChildScrollView(  
           physics: BouncingScrollPhysics(),

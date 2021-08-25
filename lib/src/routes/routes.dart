@@ -21,3 +21,25 @@ Map<String, WidgetBuilder> getRoutes() {
   };
 
 }
+
+final optionsMenu = <_Route>[
+
+  _Route('Bienvenida',          'home'),
+  _Route('¿Quiénes somos?',     'quienes_somos'),
+  _Route('Desarrollo Android',  'android'),
+  _Route('Desarrollo Flutter',  'flutter'),
+  _Route('Desarrollo Web',      'web'),
+  _Route('Otros Servicios',     'servicios'),
+
+];
+
+
+class _Route{
+
+  final String titulo;
+  final String page;
+
+  _Route(this.titulo, this.page);
+
+
+}

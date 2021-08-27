@@ -24,7 +24,8 @@ class AndroidScreen extends StatelessWidget {
 
                 SubtitleCustom(
                   size: 25, 
-                  texto: '¿Te gusta esta aplicación?'
+                  texto: '¿Te gusta esta aplicación?',
+                  center: true,
                 ),
 
                 SizedBox(height: 10),

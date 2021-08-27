@@ -4,10 +4,12 @@ class SubtitleCustom extends StatelessWidget {
 
   final double size;
   final String texto;
+  final bool center;
 
   const SubtitleCustom({
     @required this.size, 
     @required this.texto, 
+    @required this.center, 
   });
 
 
@@ -16,7 +18,7 @@ class SubtitleCustom extends StatelessWidget {
 
     return Container(
       width: 300,
-      height: 70,
+      height: 90,
       padding: EdgeInsets.only(top: 20),
       child: Text(this.texto, 
         style: TextStyle(
@@ -24,7 +26,7 @@ class SubtitleCustom extends StatelessWidget {
           fontSize: this.size,
           fontWeight:  FontWeight.w900
         ),
-        textAlign: TextAlign.center,
+        textAlign: ( this.center) ? TextAlign.center : TextAlign.left,
       ),
     );
   }

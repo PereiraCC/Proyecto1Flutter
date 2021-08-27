@@ -1,12 +1,14 @@
 part of 'widgets.dart';
 
-class SubtitleCustom extends StatelessWidget {
+class SubtitleQuienesCustom extends StatelessWidget {
 
   final double size;
+  final bool negrita;
   final String texto;
 
-  const SubtitleCustom({
+  const SubtitleQuienesCustom({
     @required this.size, 
+    @required this.negrita, 
     @required this.texto, 
   });
 
@@ -22,9 +24,9 @@ class SubtitleCustom extends StatelessWidget {
         style: TextStyle(
           color: Color.fromRGBO(140, 122, 91, 1),
           fontSize: this.size,
-          fontWeight:  FontWeight.w900
+          fontWeight: (this.negrita) ? FontWeight.bold : FontWeight.normal
         ),
-        textAlign: TextAlign.center,
+        textAlign: TextAlign.left,
       ),
     );
   }

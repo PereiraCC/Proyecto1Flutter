@@ -18,7 +18,7 @@ class QuienesSomosScreen extends StatelessWidget {
             child: Column(
               children: [
 
-                SubtitleCustom(
+                SubtitleQuienesCustom(
                   texto: '¿Quiénes somos?',
                   size: 20,
                   negrita: true,
@@ -26,7 +26,7 @@ class QuienesSomosScreen extends StatelessWidget {
 
                 SizedBox(height: 10),
 
-                SubtitleCustom(
+                SubtitleQuienesCustom(
                   texto: 'Emprendimiento',
                   size: 18,
                   negrita: false,
@@ -44,7 +44,7 @@ class QuienesSomosScreen extends StatelessWidget {
 
                 SizedBox(height: 50),
 
-                SubtitleCustom(
+                SubtitleQuienesCustom(
                   texto: '¿Cómo lo hacemos?',
                   size: 18,
                   negrita: false,

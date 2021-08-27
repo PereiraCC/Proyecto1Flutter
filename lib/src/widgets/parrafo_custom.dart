@@ -3,8 +3,12 @@ part of 'widgets.dart';
 class ParrafoCustom extends StatelessWidget {
 
   final String texto;
+  final bool center;
 
-  const ParrafoCustom(this.texto);
+  const ParrafoCustom({
+    @required this.texto, 
+    this.center = false
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +19,7 @@ class ParrafoCustom extends StatelessWidget {
           fontSize: 16,
           fontWeight: FontWeight.w300
         ),
-        textAlign: TextAlign.start,
+        textAlign: (this.center) ? TextAlign.center : TextAlign.start
       ),
     );
   }

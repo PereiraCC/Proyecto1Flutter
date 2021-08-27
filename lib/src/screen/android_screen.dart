@@ -30,11 +30,15 @@ class AndroidScreen extends StatelessWidget {
 
                 SizedBox(height: 10),
 
-                ParrafoCustom('La desarrollamos completamente en Android Nativo. Tenemos experiencia de desarrollo en esta área, creando aplicaciones desde cero o dando mantenimiento a aplicaciones existentes.'),               
+                ParrafoCustom(
+                  texto : 'La desarrollamos completamente en Android Nativo. Tenemos experiencia de desarrollo en esta área, creando aplicaciones desde cero o dando mantenimiento a aplicaciones existentes.'
+                ),               
 
                 SizedBox(height: 5),
 
-                ParrafoCustom('Podemos integrar la aplicación con el sistema principal de su empresa, mediante tecnologías Rest, que funcione completamente en línea o que incluso pueda trabajar Off-Line.'),               
+                ParrafoCustom(
+                  texto: 'Podemos integrar la aplicación con el sistema principal de su empresa, mediante tecnologías Rest, que funcione completamente en línea o que incluso pueda trabajar Off-Line.'
+                ),               
 
                 SizedBox(height: 50),
 

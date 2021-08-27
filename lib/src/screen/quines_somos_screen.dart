@@ -32,15 +32,21 @@ class QuienesSomosScreen extends StatelessWidget {
                   negrita: false,
                 ),
 
-                ParrafoCustom('Colabora Network es un emprendimiento surgido en el año 2020 que brinda servicios de desarrollo de software profesional.'),
+                ParrafoCustom(
+                  texto : 'Colabora Network es un emprendimiento surgido en el año 2020 que brinda servicios de desarrollo de software profesional.'
+                ),
 
                 SizedBox(height: 15),
 
-                ParrafoCustom('Nos gusta desarrollar software, es nuestra pasión. También nos gusta ver crecer el negocio de nuestros clientes, por lo que todo trabajo se hace de manera dedicada.'),
+                ParrafoCustom(
+                  texto : 'Nos gusta desarrollar software, es nuestra pasión. También nos gusta ver crecer el negocio de nuestros clientes, por lo que todo trabajo se hace de manera dedicada.'
+                ),
 
                 SizedBox(height: 15),
 
-                ParrafoCustom('Nuestro enfoque consiste en contribuir a las PYMES con su área de desarrollo de software, sin limitarnos a este mercado, estando preparados para brindar asesoría en desarrollo a todo tipo de empresas.'),
+                ParrafoCustom(
+                  texto : 'Nuestro enfoque consiste en contribuir a las PYMES con su área de desarrollo de software, sin limitarnos a este mercado, estando preparados para brindar asesoría en desarrollo a todo tipo de empresas.'
+                ),
 
                 SizedBox(height: 50),
 
@@ -52,7 +58,8 @@ class QuienesSomosScreen extends StatelessWidget {
 
                 SizedBox(height: 10),
 
-                ParrafoCustom('Nuestros servicios están orientados por las mejores prácticas de ingeniería de software y utilizan las metodologías más modernas para el desarrollo. Nuestro sueño es ser especialistas en desarrollo de software para dispositivos móviles, sin limitarnos a este campo de acción. Podemos desarrollar de acuerdo a sus necesidades.'),
+                ParrafoCustom(
+                  texto : 'Nuestros servicios están orientados por las mejores prácticas de ingeniería de software y utilizan las metodologías más modernas para el desarrollo. Nuestro sueño es ser especialistas en desarrollo de software para dispositivos móviles, sin limitarnos a este campo de acción. Podemos desarrollar de acuerdo a sus necesidades.'),
 
                 _Imagenes(
                   urlImage: 'assets/quienes_somos/quienes_somos1.jpg',
